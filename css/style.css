@@ -25,17 +25,17 @@ body{
     --heading:#333333;
     --placeholder:#E2E2E2;
 
-    /* Color as per Figma */
+    /* Color as per Figma */    
     --para:#777777;
     --seeMore:#3ED1BA;
     --footerIcon:#AC8FFF;
     
     /* Color as Per Lighthouse Ratio */
-    /* 
+/*     
     --para:#000;
     --seeMore:#0114ba ;
     --footerIcon:#673ce0;
-    */
+*/
 }
 a{
     text-decoration: none;
