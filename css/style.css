@@ -114,7 +114,7 @@ ul,ol{
     position: relative;
 }
 .bannerIllustration{
-    width: 1272px;
+    width: calc(50% + 322px);
     height: 1046px;
     /* background: linear-gradient(135deg, #D8FBF6, #FFF3F3); */
     background: linear-gradient(to bottom right, #D8FBF6, #FFF3F3);
@@ -168,6 +168,10 @@ ul,ol{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     cursor: pointer;
+}
+.iconWrapper span:hover{
+    background-color: #3ED1BA;
+    color: #fff;
 }
 #banner .placeholder_1{
     width: 400px;
@@ -375,6 +379,9 @@ ul,ol{
     color: var(--seeMore);
     margin-top: 43px;
 }
+#article .articlesWrapper .dFlex .right a:hover{
+    color: #4505FB;
+}
 #article .articlesWrapper .cardWrapper{
     display: flex;
     flex-wrap: wrap;
@@ -432,6 +439,9 @@ ul,ol{
 }
 #article .articlesWrapper .cardWrapper .card .cardBody a{
     color: var(--seeMore);
+}
+#article .articlesWrapper .cardWrapper .card .cardBody a:hover{
+    color: #4505FB;
 }
 #article .pagination{
     display: flex;
@@ -495,6 +505,9 @@ ul,ol{
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
 }
+#instagram .dFlex .left .btn:hover{
+    background-color: #3ED1BA;
+}
 
 #instagram .dFlex .right{
     width: 65%;
@@ -522,10 +535,14 @@ ul,ol{
     align-items: center;
 }
 #footer .dFlex ul{
+    color: #333333;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     column-gap: 60px;
+}
+#footer .dFlex ul li a:hover{
+    color: var(--footerIcon);
 }
 #footer .footerInfo{
     display: flex;
@@ -545,21 +562,26 @@ ul,ol{
     align-items: center;
     column-gap: 16px;
 }
-#footer .footerInfo .footerIcon span{
+#footer .footerInfo .footerIcon a{
     width: 40px;
     height: 40px;
     font-size: 16px;
     font-weight: 700;
     text-align: center;
-    line-height: 38px;
+    line-height: 34px;
     color: #fff;
     /* background-color: #AC8FFF; */
     background-color: var(--footerIcon);
+    border: 2px solid #AC8FFF;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+#footer .footerInfo .footerIcon a:hover{
+    color: #AC8FFF;
+    background-color: transparent;
 }
 .footerBottomInfo{
     font-size: 16px;
